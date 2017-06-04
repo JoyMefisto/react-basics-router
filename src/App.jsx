@@ -17,7 +17,7 @@ class App extends React.Component {
                 </header>
 
                 <main className="mdl-layout__content">
-                    
+                    {this.props.children}
                 </main>
             </div>
         );
