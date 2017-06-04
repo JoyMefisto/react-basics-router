@@ -38,7 +38,7 @@ const books = {
       year: 2016,
       pages: 352,
       description: "ECMAScript 6 represents the biggest update to the core of JavaScript in the history of the language. In Understanding ECMAScript 6, expert developer Nicholas C. Zakas provides a complete guide to the object types, syntax, and other exciting changes that ECMAScript 6 brings to JavaScript. Every chapter is packed with example code that works in any JavaScript environment so you'll be able to see new features in action.",
-      cover: "https://www.nostarch.com/sites/default/files/imagecache/product_full/understandingECMAscript6_cover.png"
+      cover: "https://s3.amazonaws.com/titlepages.leanpub.com/understandinges6/hero?1489281135"
     }
   ],
   "react":[
