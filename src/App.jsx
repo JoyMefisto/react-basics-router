@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 class App extends React.Component {
     render() {
@@ -9,9 +10,9 @@ class App extends React.Component {
                         <span className="mdl-layout-title">LibraryJS</span>
                         <span className="mdl-layout-spacer"></span>
                         <nav className="mdl-navigation">
-                            <a href="/" className="mdl-navigation__link">Главная</a>
-                            <a href="/about" className="mdl-navigation__link">О проекте</a>
-                            <a href="/books" className="mdl-navigation__link">Книги</a>
+                            <Link to="/" className="mdl-navigation__link">Главная</Link>
+                            <Link to="/about" className="mdl-navigation__link">О проекте</Link>
+                            <Link to="/books" className="mdl-navigation__link">Книги</Link>
                         </nav>
                     </div>
                 </header>
